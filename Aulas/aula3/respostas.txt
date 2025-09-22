@@ -1,0 +1,23 @@
+cd Desktop
+
+cd UC2-25-2N
+
+cat pokemons.txt 
+
+grep "Farfetch'd" pokemons.txt 
+ (#083 Farfetch'd Normal Flying)
+
+grep -B2 "Farfetch'd" pokemons.txt
+
+grep -A3 "Farfetch'd" pokemons.txt
+
+head -n152 pokemons.txt
+
+tail -n100 pokemons.txt
+
+
+
+ 
+
+
+
