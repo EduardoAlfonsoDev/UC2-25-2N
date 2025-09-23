@@ -1,0 +1,8 @@
+/*  comandos para enviar para o github
+
+    git status
+    git add .
+    git commit -m " "
+    git pull 
+    git push 
+*/
