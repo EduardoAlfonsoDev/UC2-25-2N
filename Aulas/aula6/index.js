@@ -34,11 +34,11 @@ console.log(idade)
 console.log(typeof(nome, idade))
 // undefined pq está vazio
 
-prompt("Qual seu nome?", eduardo)
-nome = eduardo
+nome = prompt("Qual seu nome?")
+//nome = "eduardo"
 
-prompt("Qual sua idade?", 23)
-idade = 23
-console.log(eduardo, 23)
+prompt("Qual sua idade?", idade)
+//idade = 23
+console.log("Qual seu nome?", nome, "Qual sua idade?", idade)
 
 
