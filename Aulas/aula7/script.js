@@ -31,8 +31,15 @@ console.log(minhaidade)
 //   simplificado
 let resultadoSimples = 100
 
- resultadoSimples += 50
+resultadoSimples += 50
 console.log(resultadoSimples)
+resultadoSimples -=30
+console.log(resultadoSimples)
+resultadoSimples *=2
+console.log(resultadoSimples)
+resultadoSimples /=3
+console.log(resultadoSimples)
+
 
 
 
