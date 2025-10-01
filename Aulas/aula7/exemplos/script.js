@@ -40,7 +40,32 @@ console.log(resultadoSimples)
 resultadoSimples /=3
 console.log(resultadoSimples)
 
+// comparadores
+console.log("1"==="2") // false, são diferentes
+console.log("2"==="2") // true, são iguais
+console.log(2 ==="2")  // false, tipo diferente
 
 
+console.log("1" !== "2") // true, são diferentes
+console.log("2" !== "2") // false, são iguais
+console.log(2 !== "2") // true, tipos diferentes
 
 
+console.log(1 > 2) // false, porque 1 é menor que 2
+console.log(2 > 2) // false, porque 2 é igual a 2
+console.log(3 > 2) // true, porque 3 é maior que 2
+
+
+console.log(1 >= 2) // false, porque 1 é menor que 2
+console.log(2 >= 2) // true, porque 2 é igual a 2
+console.log(3 >= 2) // true, porque 3 é maior que 2
+
+
+console.log(1 < 2 )// true, porque 1 é menor que 2
+console.log(2 < 2 )// false, porque 2 é igual a 2
+console.log(3 < 2 )// false, porque 3 é maior que 2
+
+
+console.log(1 <= 2) // true, porque 1 é menor que 2
+console.log(2 <= 2) // true, porque 2 é igual a 2
+console.log(3 <= 2) // false, porque 3 é maior que 2
