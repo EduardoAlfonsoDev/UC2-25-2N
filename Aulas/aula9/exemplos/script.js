@@ -1,0 +1,45 @@
+const nome = "Eduardo Alfonso da Silveira"
+const idade = 23
+
+// aspas duplas
+const frase = "O meu nome é " + nome + " e minha idade é " + idade
+
+console.log(frase)
+console.log(typeof frase)
+
+
+// aspas simples
+const frase2 = 'O meu nome é ' + nome + ' e minha idade é ' + idade
+
+console.log(frase2)
+console.log(typeof frase2)
+
+// template
+const frase3 = `O meu nome é ${nome} e minha idade é ${idade}` 
+
+console.log(frase3)
+console.log(typeof frase3)
+
+console.log(nome.length)
+
+const fraseMaiuscula = 'OieEEeEE'
+// método toLowerCase
+const fraseMinuscula = fraseMaiuscula.toLowerCase()
+console.log(fraseMaiuscula,fraseMinuscula)
+
+// método toUpperCase
+const fraseUpper = fraseMaiuscula.toUpperCase()
+console.log(fraseMaiuscula, fraseUpper)
+
+// método trim()
+console.log(nome.trim())
+
+// método includes(caracteres)
+const frase4 ="Hoje comi cenoura"
+console.log(frase4.includes("cenoura")) // true
+console.log(frase.includes("Batata")) // false
+
+// método replaceAll(chars1, chars2)
+const frase5 = "Hoje comi cenoura, adoro cenoura"
+const novaFrase5 = frase5.replaceAll("cenoura", "batata")
+console.log(novaFrase5)

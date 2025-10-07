@@ -33,7 +33,7 @@ console.log(soma)
 
 // exer 3
 
-let idade = prompt('qual sua idade')
+let idade = prompt('qual sua idade')         Number(prompt('sua mensagem aqui')
 const idade2 = Number(idade)
 let idadeAmigo = prompt('idade do melhor amigo?')
 const idadeAmigo2 = Number(idadeAmigo)
@@ -50,8 +50,8 @@ console.log('diferença de idade', idade2 - idadeAmigo2 )
 
 let numeroPar = prompt('Me de um número par')
 
-console.log(numeroPar % 2) // todos número par fica 0 
-// e todo número ímpar fica 1
+console.log(numeroPar % 2) // Sim sempre o número 0
+// O resto da divisão é diferente de 0
 
 
 */
@@ -70,26 +70,20 @@ console.log(anos * 24)
 */
 
 // exer 6
- /*
-let numeroUm = prompt('Me de um número')
+ 
+let numeroUm = prompt('Me de um número')        
 let numeroUmN = Number(numeroUm)
 let numeroDois = prompt('Me de outro número')
 let numeroDoisN = Number(numeroDois)
-let restoDaDivisao = numeroUmN % numeroDoisN
-let restoDaDivisao2 = numeroDoisN % numeroUmN
-
-console.log(restoDaDivisao, restoDaDivisao2)
 
 console.log('O primeiro numero é maior que segundo?', numeroUmN > numeroDoisN)
 console.log('O primeiro numero é igual ao segundo?', numeroUmN === numeroDoisN)
 
 
-console.log('O primeiro numero é divisível pelo segundo?', restoDaDivisao >= 0)
-console.log('O segundo numero é divisível pelo primeiro?', restoDaDivisao2 >= 0)
+console.log('O primeiro numero é divisível pelo segundo?',  (numeroUmN % numeroDoisN)=== 0)
+console.log('O segundo numero é divisível pelo primeiro?', (numeroDoisN % numeroUmN)=== 0)
 
-*/
 
-// exer 7
 
 
                 
