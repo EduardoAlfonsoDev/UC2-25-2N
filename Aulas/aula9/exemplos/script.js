@@ -43,3 +43,7 @@ console.log(frase.includes("Batata")) // false
 const frase5 = "Hoje comi cenoura, adoro cenoura"
 const novaFrase5 = frase5.replaceAll("cenoura", "batata")
 console.log(novaFrase5)
+
+const listaDeCompras = ["Abacate", "Banana", "Tomate"]
+
+console,log(listaDeCompras[1])
