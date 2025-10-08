@@ -46,4 +46,33 @@ console.log(novaFrase5)
 
 const listaDeCompras = ["Abacate", "Banana", "Tomate"]
 
-console,log(listaDeCompras[1])
+console.log(listaDeCompras[1])
+
+// Propriedade length
+const pokemon = ['farfetch', 'pikachu']
+console.log(pokemon.length)
+
+// Método includes(elemento)
+const seriesBoas = ['the office', 'B99']
+console.log(seriesBoas.includes('the office'))
+
+// Método push(elemento)
+const numeros = [1,2,3]
+numeros.push(4)
+console.log(numeros)
+numeros.push(5,6,7)
+console.log(numeros)
+
+// Método pop()
+const meusPeixes = ["palhaço", "mandarim", "esturjão"]
+meusPeixes.pop()
+console.log(meusPeixes)
+meusPeixes.pop()
+console.log(meusPeixes)
+
+// Método splice(i, n)
+
+const letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+letras.splice(1,1)
+console.log(letras)
+
