@@ -89,10 +89,10 @@ console.log(descricao.length)
 const temTamanhoAdequado = (descricao.length )>= 20
 console.log(temTamanhoAdequado)
 descricao = descricao.toLowerCase()
-descricao = descricao.indexOf('brilho')
-descricao = descricao.indexOf('trilhas')
+let temBrilho = descricao.indexOf('brilho')
+let temTrilhas = descricao.indexOf('trilhas')
 
-console.log(descricao)
+console.log()
 
 // const lookAprovado = (temTamanhoAdequado && ())
 
