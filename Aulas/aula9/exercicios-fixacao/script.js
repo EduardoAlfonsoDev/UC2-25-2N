@@ -68,8 +68,33 @@ novaTarefa = listaDeTarefas.push(tarefa1, tarefa2, tarefa3)
 console.log(listaDeTarefas)
 */
 
-// Desafio
+/*
+// dia maluco
 
-const frase = prompt ('Fale uma frase')
-const fraseUsuario = [frase]
-console.log(frase)
+const acessorios = Number(prompt('Número de acessórios'))
+const cores = Number(prompt('Número de cores'))
+const brilho = Number(prompt('Fator brilho'))
+const pontuacao = (acessorios * 5) + (cores * 3) + (brilho * 10)
+const metaPontuacao = 80
+const resultado = (pontuacao >= metaPontuacao)
+if (resultado === true){ console.log('Aprovado')}
+else console.log((metaPontuacao - pontuacao), pontuacao)
+*/
+
+// dia maluco 2
+
+ let descricao = prompt('Uma frase descrevendo o look')
+const corPrincipal = prompt('A cor de destaque do look')
+console.log(descricao.length)
+const temTamanhoAdequado = (descricao.length )>= 20
+console.log(temTamanhoAdequado)
+descricao = descricao.toLowerCase()
+descricao = descricao.indexOf('brilho')
+descricao = descricao.indexOf('trilhas')
+
+console.log(descricao)
+
+// const lookAprovado = (temTamanhoAdequado && ())
+
+
+//chapeu de cowboy, camisa marrom, cinto preto e fivela prata
