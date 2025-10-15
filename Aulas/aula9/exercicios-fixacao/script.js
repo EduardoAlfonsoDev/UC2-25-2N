@@ -1,22 +1,22 @@
 /*
 // 1
-let array // criou a variavel 
-console.log('a ', array) // imprimiu 
+let array //variável array será exibida como undefined
+console.log('a ', array) 
 
 array = null // definiu como vazio
 console.log('b', array)
 
-array = [3, 4, 5, 6, 7,8,9,10,11,12,13]
+array = [3, 4, 5, 6, 7,8,9,10,11,12,13] // sera exibido o numero 11
 console.log('c ', array)
 
 let i = 0
-console.log('d ',array.length)
+console.log('d ',array.length) //será exibido o valor da posicao 0 que no caso é 3
 
 array[i+1] = 19
-console.log('e ', array[i])
+console.log('e ', array[i]) //será trocado o valor da posicao 1 para 19
 
 const valor = array[i+6]
-console.log('f ', valor)
+console.log('f ', valor) //será salvo o valor da posição 6 e será exibido.
 */
 
 /*
@@ -24,7 +24,7 @@ console.log('f ', valor)
 
 const frase = prompt('Digite uma frase') // 
 console.log(frase.toUpperCase().replaceAll('A', 'I'), frase.length)
-// imprime a seguinte frase 'SUBI NUM ONIBUS EM MIRROCOS 27'
+// imprime a seguinte frase 'SUBI NUM ONIBUS EM MIRROCOS trocando o a pelo i e tudo em maiusculo
 
 */
 
@@ -65,6 +65,9 @@ const tarefa2 = prompt('Digite a segunda tarefa')
 const tarefa3 = prompt('Digite a terceira tarefa')
 
 novaTarefa = listaDeTarefas.push(tarefa1, tarefa2, tarefa3)
+console.log(listaDeTarefas)
+const indice = Number(prompt(“Digite o número da tarefa realizada”))
+listaDeTarefas.splice(indice,1)
 console.log(listaDeTarefas)
 */
 
