@@ -31,20 +31,54 @@ else
     console.log('os numeros são iguais')
 */
 
+/* 
+
 let pokemon = prompt('escolha um pokemon')
 
 switch(pokemon){
     case 'bulbasaur' :
-        console.log('planta e veneno')
+        console.log('bulbasaur(planta e veneno)')
         break
     case 'charmander':
-        console.log('fogo')
+        console.log('charmander(fogo)')
         break
     case 'squirtle' :
-        console.log('água')
+        console.log('squietle(água)')
         break
     default:
         console.log('pokemon não registrado')
         break        
 
 }
+*/
+/*
+const alunas = prompt('Escreva o nome de uma aluna de Hogwarts')
+
+switch(alunas.toLocaleLowerCase()){
+    case 'hermione':
+        console.log('Grifinória')
+        break
+    case 'ana':
+        console.log('Lufa-lufa')
+        break
+    case 'luna':
+        console.log('Corvinal')
+        break
+    case 'narcisa':
+        console.log('Sonserina')
+        break
+    default:
+        console.log('Personagem não encontrado')
+
+}
+*/
+let idade = Number(prompt('Qual sua idade')) >=18
+let ensino = prompt('Tem ensino médio completo?').toLocaleLowerCase()==='sim'
+let faculdade = prompt('Está cursando outra').toLocaleLowerCase()==='sim'
+
+
+if(ensino&&idade&& !faculdade) {
+    console.log('Pode estudar nessa faculdade')
+}
+else
+    console.log('Voce não pode estudar nessa faculdade')

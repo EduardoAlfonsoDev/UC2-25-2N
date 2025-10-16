@@ -1,3 +1,4 @@
+/*
 let condicao1 = true
 if (condicao1){
     // como o valor da condição é true, o codigo desse bloco é executado
@@ -50,5 +51,19 @@ switch(paisOrigem){
 
 
 }
+*/
+let condicao1 = true
+let condicao2 = false
 
-
+if(condicao1 && condicao2){
+    //entra aqui se ambas forem true
+    console.log('executou o IF do operador && AND')    
+}
+if(condicao1||condicao2){
+    //entra aqui se uma delas forem true
+    console.log('executou o IF do operador || OR')
+}
+if(!condicao1){
+    //entra aqui se condição1 for false
+    console.log('executou o IF do operador ! NOT')
+}
