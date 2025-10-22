@@ -91,6 +91,9 @@ switch(turno){
         console.log('turno não encontrado')
 }
 
+let generoFilme = prompt('qual filme')
+let ingresso = Number(prompt('preço do ingresso'))
 
+let 
 
 
