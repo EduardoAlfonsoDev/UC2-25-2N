@@ -2,8 +2,11 @@
 // criada variavies constantes(const) e variaveis alteraveis(let)
 const temDiamantes = true
 let niivelMesaCrafting = 2
-const temGravetos = false
+let temGravetos = false
 let temFerro = 10
+
+//alterando valor de uma variavel
+temGravetos = 2
 
 // usando estrutura condicional 
 if( temGravetos || niivelMesaCrafting < 3 && temDiamantes && temFerro >= 8){
