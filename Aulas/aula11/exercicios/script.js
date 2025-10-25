@@ -90,10 +90,10 @@ switch(turno){
     default:
         console.log('turno não encontrado')
 }
-
+/*
 let generoFilme = prompt('qual filme')
 let ingresso = Number(prompt('preço do ingresso'))
 
 let 
-
+if(generoFilme==='fantasia'&&ingresso<) */
 
