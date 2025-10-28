@@ -32,7 +32,19 @@ for(let i=0 ; i<= 9; i++){
     console.log('o valor de i é:', i)
 }
 */
+
+/*
 const meuArray = [10, 4, 7, 8, 200, 77]
 for(let i = 0; i < 6; i++){
     console.log(meuArray[i])
 } 
+*/
+
+/*
+// for of 
+//apenas para indice
+const numeros = [100, 7, 4, 8, 10, 3, 20, 777, 2000, 1000]
+ for(let numero of numeros){
+    console.log(`o numero é:`, numero)
+ }
+ */
