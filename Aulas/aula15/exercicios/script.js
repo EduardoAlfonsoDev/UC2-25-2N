@@ -40,9 +40,10 @@ console.log(soma(2,5));
 
 function [7, 77, 777, 7777]{
     let novoArray = []
+    novoArray.push(Array.length,)
     return novoArray
 }
-console.log(novoArray(5,55))
+console.log(novoArray())
 
 
 
