@@ -32,10 +32,10 @@ const determinaMonstro = (
   brilhaAoSol,
   temSedeDeSangue
 ) => {
-    temPeleGelada = true
-    transformaComLuaCheia = true
-    brilhaAoSol = true
-    temSedeDeSangue = true
+    vampiro = temPeleGelada 
+    lobisomen = transformaComLuaCheia
+    vampiro = brilhaAoSol
+    vampiro= temSedeDeSangue 
   if (temPeleGelada && brilhaAoSol && temSedeDeSangue) {
     console.log("voce é um vampiro");
   } else if (transformaComLuaCheia) {
