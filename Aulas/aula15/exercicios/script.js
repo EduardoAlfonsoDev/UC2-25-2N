@@ -38,13 +38,18 @@ function soma(num1, num2){
 }
 console.log(soma(2,5));
 
-function [7, 77, 777, 7777]{
+
+let arrayNumeros = [7, 77, 777, 7777]
+function divisao(array){
     let novoArray = []
-    novoArray.push(Array.length,)
+    novoArray.push(array[0]/2)
+    novoArray.push(array[array.length-1]/2)
+
     return novoArray
 }
-console.log(novoArray())
+console.log(divisao(arrayNumeros));
 
+//
 
 
 
