@@ -34,3 +34,8 @@ console.log('elenco:', perso[0].nome, 'e intrepertar:', perso[0].papel)
 console.log('elenco:', perso[1].nome, 'e intrepertar:', perso[1].papel)
 console.log('elenco:', perso[2].nome, 'e intrepertar:', perso[2].papel)
 console.log('elenco:', perso[3].nome, 'e intrepertar:', perso[3].papel)
+
+const novoPerso = {
+    ...perso,
+    nome: 'xuxa'
+}
