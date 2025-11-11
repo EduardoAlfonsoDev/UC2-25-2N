@@ -82,30 +82,55 @@ console.log(reposta)
 */
 // 3
 
+/*
 let mensagem = () => {
-   return 'eu sou eduardo, tenho 23 anos, moro em são leopoldo e sou estudante'
+    return 'eu sou eduardo, tenho 23 anos, moro em são leopoldo e sou estudante'
 }
-console.log(mensagem())
+ console.log(mensagem())
+ 
+ // 4
+ 
+ let soma = (num1, num2) =>{
+   return num1 + num2
+ }
+ console.log(soma(5,5))
+ 
+ 
+ let booleano = (num1, num2) => {
+   return num1 >= num2
+ }
+ console.log(booleano(3,5))
+ 
+ let par = (num1, num2) => {
+   return num1 >= num2 %2
+ }
+ console.log(par(2,3))
+ 
+ let mensagem2 = (texto) => {
+ console.log (texto.length.toUpperCase())
+ }
+ mensagem2()
 
-// 4
+ */
+let num1 = Number(prompt('insira um numero'))
+let num2 = Number(prompt('insira um numero'))
 
-let soma = (num1, num2) =>{
-  return num1 + num2
+let soma = () => {
+    return num1 + num2
 }
-console.log(soma(5,5))
 
-
-let booleano = (num1, num2) => {
-  return num1 >= num2
+let diferença = () =>{
+    return num1 - num2
 }
-console.log(booleano(3,5))
-
-let par = (num1, num2) => {
-  return num1 >= num2 %2
+let multiplicação = () => {
+    return num1 * num2
 }
-console.log(par(2,3))
+let divisao = () =>{
+    return num1 / num2
+}
 
-//let texto = ('oi') => {
-// return texto.length.toUpperCase()
-//}
-// console.log(texto)
+console.log('numeros insiridos',num1, num2)
+console.log('soma:',soma(num1,num2))
+console.log('diferença:',soma(num1,num2))
+console.log('multiplicação:',soma(num1,num2))
+console.log('divião:',soma(num1,num2))
