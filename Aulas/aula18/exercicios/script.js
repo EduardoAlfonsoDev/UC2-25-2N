@@ -60,6 +60,6 @@ const people = {
     nome : 'Eduardo',
     apelidos : ['edu','alfonso','du']
 }
-console.log(`Eu sou ${people.nome} mas pode me chamar de: ${people.apelidos}`)
+console.log(`Eu sou ${people.nome} mas pode me chamar de: ${people.apelidos[2]}`)
 
 // exercicio de fixação 2

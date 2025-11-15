@@ -45,4 +45,4 @@ let buscarPersonagem = (nomeBuscado) => {
     return `Personagem com nome "${nomeBuscado}" não encontrado `;
   }
 }
-buscarPersonagem('naruto')
+console.log(buscarPersonagem('naruto'))
