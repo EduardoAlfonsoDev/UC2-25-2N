@@ -62,6 +62,7 @@ console.log(personagens[1].historicoAcoes);
 console.log(personagens[2].historicoAcoes);
 
 
+
 // buscar personagens 
 // criado uma função que percorre o array de personagens ate encontrar o personagem correspondente 
 let buscarPersonagem = (nomeBuscado) => {
